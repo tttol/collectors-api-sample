@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9e32c0c-28d9-452b-96c7-fcbfba4315e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FlatMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Joining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Mapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToUnmodifiableSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FlatMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlatMapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

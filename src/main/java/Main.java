@@ -9,5 +9,6 @@ public class Main {
         }
         new Joining().run();
         new Mapping().run();
+        new FlatMapping().run();
     }
 }

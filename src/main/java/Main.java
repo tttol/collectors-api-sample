@@ -12,5 +12,6 @@ public class Main {
         new FlatMapping().run();
         new Filtering().run();
         new CollectingAndThen().run();
+        new Counting().run();
     }
 }

@@ -1,7 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        new MaxBy().run();
-        System.out.println("----------------");
         new ToCollection();
         try {
             new ToUnmodifiableSet().run();
@@ -24,6 +22,14 @@ public class Main {
         new MinBy().run();
         System.out.println("----------------");
         new MaxBy().run();
+        System.out.println("----------------");
+        new SummingInt().run();
+        System.out.println("----------------");
+        new AveragingInt().run();
+        System.out.println("----------------");
+        new Reducing().run();
+        System.out.println("----------------");
+        new GroupingBy().run();
         System.out.println("----------------");
     }
 }

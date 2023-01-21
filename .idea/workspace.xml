@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9e32c0c-28d9-452b-96c7-fcbfba4315e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AveragingInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GroupingBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Reducing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SummingInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MaxBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaxBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MinBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinBy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

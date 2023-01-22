@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         new ToCollection();
+        System.out.println("----------------");
         try {
             new ToUnmodifiableSet().run();
         } catch (UnsupportedOperationException e) {
@@ -30,6 +31,20 @@ public class Main {
         new Reducing().run();
         System.out.println("----------------");
         new GroupingBy().run();
+        System.out.println("----------------");
+        new PartitioningBy().run();
+        System.out.println("----------------");
+        new ToMap().run();
+        System.out.println("----------------");
+        try {
+            new ToUnmodifiableMap();
+        } catch (UnsupportedOperationException e) {
+            System.out.println(e.getMessage());
+        }
+        System.out.println("----------------");
+        new ToConcurrentMap().run();
+        System.out.println("----------------");
+        new SummarizingInt().run();
         System.out.println("----------------");
     }
 }

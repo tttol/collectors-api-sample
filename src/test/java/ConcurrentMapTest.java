@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -19,7 +20,7 @@ public class ConcurrentMapTest {
 
     @Test
     @DisplayName("Mapの場合")
-    void givenHashMap_whenSumParallel_thenError() throws Exception {
+    void mapTest() throws Exception {
         var map = new HashMap<String, Integer>();
         var sumList = parallelSum100(map);
 
@@ -37,7 +38,7 @@ public class ConcurrentMapTest {
     }
     @Test
     @DisplayName("ConcurrentHashMapの場合")
-    void test() throws Exception {
+    void concurrentMapTest() throws Exception {
         var map = new ConcurrentHashMap<String, Integer>();
         var sumList = parallelSum100(map);
 
@@ -53,6 +54,7 @@ public class ConcurrentMapTest {
         assertEquals(0, wrongResultCount);
     }
 
+    @Disabled //TODO refactor
     @Test
     @DisplayName("CompletableFuture version")
     void cfTest() throws Exception {

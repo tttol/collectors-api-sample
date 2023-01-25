@@ -5,11 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9e32c0c-28d9-452b-96c7-fcbfba4315e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GroupingByConcurrent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConcurrentMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AveragingIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectingAndThenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CountingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FilteringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FlatMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GroupingBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GroupingByConcurrent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Joining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MaxBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MinBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PartitioningBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Reducing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SummarizingInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SummingInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ToCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ToConcurrentMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ToMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ToUnmodifiableMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ToUnmodifiableSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +74,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2617108&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/t-takahashi/Documents/workspace/java/collectors-api-sample/src/test/java",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.splitter.proportion": "0.2617108"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -72,17 +93,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ConcurrentMapTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="collectors-api-sample.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentMapTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AveragingInt.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -95,7 +114,76 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ConcurrentMapTest&quot;" />
+            <option value="&quot;AveragingInt.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CollectingAndThenTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CollectingAndThenTest.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CountingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CountingTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FilteringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;FilteringTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -107,8 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ConcurrentMapTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.FilteringTest" />
+        <item itemvalue="Gradle.CountingTest" />
+        <item itemvalue="Gradle.CollectingAndThenTest.test" />
+        <item itemvalue="Gradle.AveragingInt.test" />
       </list>
     </recent_temporary>
   </component>

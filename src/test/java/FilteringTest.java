@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import org.junit.jupiter.api.Test;
 
 public class FilteringTest {
-    private record Employee (String name, String department, int salary) {}
+    record Employee (String name, String department, int salary) {}
 
     @Test
     void test() {

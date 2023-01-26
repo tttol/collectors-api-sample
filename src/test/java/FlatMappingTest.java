@@ -19,7 +19,7 @@ public class FlatMappingTest {
     );
     var actual = run();
 
-    assertThat(actual).usingRecursiveComparison().isEqualTo(expected);
+    assertThat(actual).isEqualTo(expected);
   }
 
   private Map<String, List<Product>> run() {

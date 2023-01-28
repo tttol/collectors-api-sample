@@ -1,9 +1,17 @@
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
+
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import org.junit.jupiter.api.Test;
 
-public class ToUnmodifiableMap {
-    public void run() {
+public class ToUnmodifiableMapTest {
+    @Test
+    void test() {
+        assertThatThrownBy(this::run).isInstanceOf(UnsupportedOperationException.class);
+    }
+
+    private void run() {
         record Person(String name, String city, int height){}
 
         var people = List.of(

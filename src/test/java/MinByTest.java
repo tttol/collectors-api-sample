@@ -1,13 +1,27 @@
+import static org.assertj.core.api.Assertions.assertThat;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import org.junit.jupiter.api.Test;
 
-public class MinBy {
+public class MinByTest {
+    record Entity(String key, String seq) {}
 
-    public void run() {
-        record Entity(String key, String seq) {}
+    @Test
+    void test() {
+        var expected = Map.of(
+            "k1", Optional.of(new Entity("k1", "0001")),
+            "k2", Optional.of(new Entity("k2", "0001"))
+        );
+        var actual = run();
+
+        assertThat(actual).isEqualTo(expected);
+    }
+
+    private Map<String, Optional<Entity>> run() {
         var entities = List.of(
                 new Entity("k1", "0001"),
                 new Entity("k1", "0003"),
@@ -16,8 +30,7 @@ public class MinBy {
                 new Entity("k2", "0001")
         );
 
-        Map<String, Optional<Entity>> map = entities.stream()
+        return entities.stream()
                 .collect(Collectors.groupingBy(Entity::key, Collectors.minBy(Comparator.comparing(Entity::seq))));
-                map.forEach((key, value) -> System.out.printf("%s=%s%n", key, value));
     }
 }
